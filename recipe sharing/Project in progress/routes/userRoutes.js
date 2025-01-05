@@ -13,4 +13,5 @@ router.get("/profile", authMiddleware, getUserProfile);
 router.put("/profile", authMiddleware, updateUserProfile);
 router.post("/follow/:userId", authMiddleware, followTheUser);
 
+///////
 module.exports = router;
